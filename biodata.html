@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="image/green coqquete.jpeg" rel="icon">
+    <body>
     <title>My Biodataৎ⋆˚｡⋆</title>
-    
     <style>
         /* General body styling */
         body {
@@ -152,7 +149,35 @@
         </p>
     </div>
 
-</div>
+      
+        <title>Moving Text</title>
+        <style>
+            .marquee {
+                width: 100%;
+                overflow: hidden;
+                white-space: nowrap;
+                box-sizing: border-box;
+            }
+            .marquee span {
+                display: inline-block;
+                padding-left: 100%;
+                animation: marquee 15s linear infinite;
+            }
+            @keyframes marquee {
+                from {
+                    transform: translateX(0%);
+                }
+                to {
+                    transform: translateX(-100%);
+                }
+            }
+        </style>
+    </head>
+    <body>
+       
+        <div class="marquee">
+            <span>This website develop for IMD 318 individual assignment.</span>
+        </div>
 
 </body>
 </html>
